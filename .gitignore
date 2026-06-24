@@ -1,69 +1,144 @@
-# Prerequisites
-*.d
+# Unreal Engine 5 Project .gitignore
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Place this file in the same directory as DX.uproject.
+
+# =========================================================
+
+# Must be included in submission / repository
+
+# =========================================================
+
+# DX.uproject
+
+# Config/
+
+# Content/
+
+# Source/
+
+# Plugins/Temporary/Temporary.uplugin
+
+# Plugins/Temporary/Source/
+
+# Plugins/Temporary/Content/
+
+# =========================================================
+
+# Unreal Engine generated folders
+
+# =========================================================
+
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Do not ignore Build/ globally.
+
+# In Unreal projects, Build/ may contain useful project resources such as icons.
+
+# Build/
+
+# =========================================================
+
+# Plugin generated folders
+
+# =========================================================
+
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+Plugins/**/Saved/
+Plugins/**/DerivedDataCache/
+
+# =========================================================
+
+# Visual Studio / Rider / IDE generated files
+
+# =========================================================
+
+.vs/
+.idea/
+.vscode/.browse.VC.db
+.vscode/ipch/
+
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+
+# =========================================================
+
+# MSVC / compiler generated files
+
+# =========================================================
+
 *.obj
-
-# Precompiled Headers
-*.gch
 *.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
 *.pdb
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.exp
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
+# =========================================================
 
+# Logs, dumps, temporary files
 
-# Fortran module files
-*.mod
-*.smod
+# =========================================================
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
 *.log
+*.tmp
+*.temp
 *.bak
 *.swp
+*.dmp
+*.mdmp
 
-# vcpkg
-vcpkg_installed/
+# =========================================================
 
-# debug information files
-*.dwo
+# OS generated files
 
-# test output & cache
-Testing/
-.cache/
+# =========================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================================
+
+# Optional package/build output folders
+
+# =========================================================
+
+Packages/
+Packaged/
+StagedBuilds/
+Saved/StagedBuilds/
+Saved/Cooked/
+Saved/Crashes/
+Saved/Logs/
+
+# =========================================================
+
+# Do not ignore Unreal assets
+
+# =========================================================
+
+# *.uasset
+
+# *.umap
+
+# *.ini

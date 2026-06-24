@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Temporary",
+	"Description": "Reusable runtime plugin created manually for module/plugin practice.",
+	"Category": "Project",
+	"CreatedBy": "ChatX",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Modules": [
+		{
+			"Name": "Temporary",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
